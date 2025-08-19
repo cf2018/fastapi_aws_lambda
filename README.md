@@ -84,10 +84,12 @@ Visit http://localhost:8000/ and http://localhost:8000/docs
 `.env` controls runtime defaults; Terraform also passes the key ones into Lambda.
 
 ```
+
 APP_ENV=dev
 STAGE=dev
 AWS_REGION=us-east-1
 LAMBDA_NAME=fastapi_aws_lambda
+
 ```
 
 ## Notes
